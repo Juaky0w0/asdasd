@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&family=Roboto&display=swap');
+
+.xddd{
+    background-color: black;
+    color: black;
+    height: 60px;
+}
+.container-products {
+    font-family: Montserrat;
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cabezera {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;  
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.cabezera h2 {
+    font-size: 2rem;
+    display: inline;
+    font-weight: bold;
+  
+}
+.filtros-cabeza{
+    
+    display: inline;
+    margin: auto;
+}
+.orden{
+    display: flex;
+    border-radius: 50px;
+    padding: 3px;    
+    float: right;
+    margin: 10px;
+    padding-right: 60px;
+    background-color: #E8E8E8;
+}
+.buscar{
+    margin: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 120px;
+    float: left;
+    background-color: #E8E8E8;
+}
+.conteCata{
+    padding-top: 20px;
+    
+    background-color: #E8E8E8;
+}
+.filtros {    
+    width: 90%;
+    margin: auto;   
+}
+.divCata {
+    padding: 10px;
+    
+    width: 90%;
+    margin: auto;
+}
+.filtros h3 {
+    font-size: 1rem;
+    color: black;
+}
+.slick-arrow .slick-prev {
+    margin-left: 0;
+    margin-right: 0;
+}
+.slick-arrow .slick-next {
+    margin-left: 0;
+    margin-right: 0;
+}
+.combocate{
+    border-radius: 50px;     
+}
+.combomarca{
+    border-radius: 50px;    
+}
+
+.categorias{   
+    display: inline;
+    float: left;
+    padding-right: 20px;
+}
+.marcas{
+    display: inline;
+}
+
+
+
+
+/*tarjetas y más uwu*/
+.contenedorTarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: auto;
+
+}
+
+.catprod {
+    width: 500px;
+    margin: auto;
+    font-family: Montserrat;
+
+}
+
+.carttopPro {
+    height: 500px;
+    margin: auto;
+}
+
+.carttopPro h4{
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.carttopPro p{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.cardPro {
+    height: 585px;
+    width: 100px;
+    border: none;
+    background-color: white;
+}
+
+.carttopPro img {
+    height: 45vh;
+    width: 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-color: white;
+}
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0;
+    top: 10px;
+}
+
+.slick-dots li button {
+
+    content: '';
+    content: "."
+}
+
+.slick-dots li button:before {
+
+    content: '';
+    content: "."
+}
+
+
+.slick-prev::before,
+.slick-next::before{
+    color: black;    
+}
+
+.btnprod {    
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 80px;
+    opacity: 0;
+      
+}
+
+.btnprod:hover{    
+    overflow: visible;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.cons {
+    background-color: #0378FB;
+    border-radius: 20px;
+    border: none; 
+    color: white;  
+    padding: 7px; 
+    padding-right: 20px; 
+    padding-left: 20px;    
+    text-decoration: none;
+}
+
+.verpro {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    border: solid black;    
+    padding-right: 20px; 
+    padding-left: 20px;
+    color: black;  
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.prodagot{
+    background-color: #A9A9A9;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding-right: 15px; 
+    padding-left: 15px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+@media screen and (max-width: 1700px) {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 2fr);
+
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 2fr);
+
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .catprod {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .catprod {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+
+    }
+
+    .catprod {
+        width: 400px;
+    }
+    .cabezera {
+        grid-column: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+
+    }
+
+    .catprod {
+        width: 400px;
+    }
+    .cabezera {
+        grid-template-columns: 1fr; 
+    }
+    
+}
+@media screen and (max-width: 530) {
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+    }
+    .catprod {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+
+    }
+
+    .catprod {
+        width: 350px;
+    }
+    .cabezera {
+        grid-template-columns: 1fr; 
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .contenedorTarjetas {
+        grid-template-columns: 1fr;
+    }
+    .catprod {
+        width: 310px;
+    }
+}
+
+.lineamap{
+    
+   
+    display: inline;
+   
+    text-align: center;
+}
+.lineamap li{
+    margin: 5px;
+    display: inline;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+    padding: 15px;
+    text-align: center;    
+}

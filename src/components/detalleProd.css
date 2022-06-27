@@ -1,0 +1,47 @@
+
+.detPro{
+    width: 500px;    
+    margin:auto; 
+    font-family: Montserrat;
+
+  }
+  .detacard h4{
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-bottom: 0;   
+    font-weight: 600;
+
+  }
+  .detacard p{
+    padding-left: 20px;
+    margin: 0;
+    
+  }
+  .detacart-top{
+   width: 200px;
+   border: none;
+   background-color: #F8F8F8;
+ } 
+ .detacard img {
+   width: 100%;    
+   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-color: #F8F8F8;
+  
+ }
+ .slick-slide > div{
+   margin: 0 10px;
+
+ }
+
+ .slick-list {
+   margin: 0 10px;
+   top: -10px;
+ }
+
+.slick-prev:before, .slick-next:before { 
+   color: #808080;
+  
+}
